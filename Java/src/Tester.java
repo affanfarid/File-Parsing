@@ -13,7 +13,7 @@ public class Tester {
 		
 		FileObject f1 = new FileObject(file, "\\s+");
 		
-		Line l1 = new Line("sugma dick hooooooooe", "\\s+");
+		Line l1 = new Line("This is a string to parse", "\\s+");
 		
 		for(int i =0; i<f1.getNumLines(); i++) {
 			System.out.println(f1.getLine(i));
